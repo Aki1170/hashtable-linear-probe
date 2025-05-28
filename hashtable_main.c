@@ -1,7 +1,8 @@
-#include <stdio.h>
+#include "hashtable.h"
 
-int main()
-{
-    printf("Hello World!\n");
+int main() {
+    HashTable ht;
+    initHashTable(&ht, 10);
+    printHashTable(&ht);
     return 0;
 }
